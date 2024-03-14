@@ -1,0 +1,167 @@
+@import url('/src/style/style.css');
+
+@keyframes slideOut {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .slide-out {
+    animation: slideOut 0.5s ease-in-out forwards;
+  }
+  
+
+.containerH {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--blanco_-ffffff);
+    position: relative;
+    overflow: hidden;
+}
+
+.rectangleA {
+    position: absolute;
+    top: -86.1038818359375px;
+    left: -86.50152587890625px;
+    width: 499px;
+    height: 370px;
+    border-radius: 17px;
+    opacity: 1;
+}
+
+.rectangleR {
+    position: absolute;
+    top: -80.00006103515625px;
+    left: -45.468658447265625px;
+    width: 487px;
+    height: 349px;
+    border-radius: 17px;
+    opacity: 1;
+}
+
+.circleUser {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 56px;
+    height: 56px;
+    background: var(--elipse_-49346A) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.txtHi {
+    width: 96px;
+    height: 16px;
+    color: var(--blanco_-ffffff);
+    text-align: left;
+    font: normal normal normal 12px/16px 'Red Hat Display';
+    letter-spacing: 0px;
+    opacity: 1;
+    margin: 0;
+}
+
+.txtUser {
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--blanco_-ffffff);
+    text-align: left;
+    font: normal normal 500 16px/21px 'Red Hat Display Medium';
+    opacity: 1;
+    margin: 0;
+}
+
+.group {
+    position: relative;
+    top: 30px;
+    left: 92px;
+    width: 96px;
+    height: 36px;
+}
+
+.txtDisponible {
+    position: absolute;
+    top: 92px;
+    left: 134px;
+    width: 72px;
+    height: 16px;
+    color: var(--blanco_-ffffff);
+    text-align: center;
+    font: normal normal normal 12px/16px 'Red Hat Display';
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.monto {
+    position: absolute;
+    top: 108px;
+    left: 76px;
+    width: 208px;
+    height: 24px;
+    color: var(--blanco_-ffffff);
+    text-align: center;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.small-decimal {
+    font-size: 0.8em;
+}
+
+.btnLoans {
+    position: absolute;
+    top: 336px;
+    left: 36px;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnLoansView{
+    position: absolute;
+    top: 336px;
+    left: 200px;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loans {
+    width: 64px;
+    height: 64px;
+    opacity: 1;
+}
+
+.txtPrestamo {
+    position: absolute;
+    top: 390px;
+    left: 10px;
+    width: 500px;
+    height: 100px;
+    opacity: 1;
+    color: var(--color-210049);
+}
+
+.txtPrestamos {
+    position: absolute;
+    top: 390px;
+    left: 190px;
+    width: 50px;
+    height: 50px;
+    opacity: 1;
+    color: var(--color-210049);
+}

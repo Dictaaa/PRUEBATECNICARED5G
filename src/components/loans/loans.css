@@ -1,0 +1,183 @@
+@import url('/src/style/style.css');
+
+.app-container {
+    overflow: hidden;
+}
+
+.containerLoans {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    background-color: var(--blanco_-ffffff);
+    position: relative;
+}
+
+.loans-enter {
+    transform: translateX(100%);
+}
+
+.loans-enter-active,
+.loans-appear-done,
+.loans-enter-done {
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+}
+
+.loans-exit {
+    transform: translateX(0);
+}
+
+.loans-exit-active {
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in-out;
+}
+
+.txtLoans {
+    position: absolute;
+    top: 72px;
+    left: 16px;
+    width: 276px;
+    height: 28px;
+    color: var(--color-210049);
+    text-align: left;
+    font: normal normal bold 24px/31px 'Red Hat Display Blod';
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.rectangle {
+    position: absolute;
+    top: 120px;
+    left: 16px;
+    width: 328px;
+    height: 160px;
+    opacity: 1;
+}
+
+.txtInfo {
+    position: absolute;
+    top: 316px;
+    left: 16px;
+    width: 328px;
+    height: 20px;
+    color: var(--unnamed-color-a2b0b7);
+    text-align: left;
+    font: normal normal medium 16px/21px 'Red Hat Display Medium';
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.txtCost {
+    position: absolute;
+    top: 348px;
+    left: 32px;
+    width: 296px;
+    height: 16px;
+    color: var(--gris2_-6e6e6e);
+    text-align: left;
+    font: normal normal normal 14px/16px 'Red Hat Display';
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.txtPrice {
+    position: absolute;
+    top: 368px;
+    left: 32px;
+    width: 296px;
+    height: 20px;
+    color: var(--color-210049);
+    text-align: left;
+    font: normal normal normal 16px/21px 'Red Hat Display';
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.txtPayAns {
+    position: absolute;
+    top: 404px;
+    left: 32px;
+    width: 296px;
+    height: 16px;
+    color: var(--gris2_-6e6e6e);
+    text-align: left;
+    font: normal normal normal 14px/16px 'Red Hat Display';
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.txtPay {
+    position: absolute;
+    top: 424px;
+    left: 32px;
+    width: 296px;
+    height: 20px;
+    color: var(--color-210049);
+    text-align: left;
+    font: normal normal normal 16px/21px 'Red Hat Display';
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.txtPaymentdateAns {
+    position: absolute;
+    top: 460px;
+    left: 32px;
+    width: 296px;
+    height: 16px;
+    color: var(--gris2_-6e6e6e);
+    text-align: left;
+    font: normal normal normal 14px/16px 'Red Hat Display';
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.txtPaymentdate {
+    position: absolute;
+    top: 480px;
+    left: 32px;
+    width: 296px;
+    height: 20px;
+    color: var(--color-210049);
+    text-align: left;
+    font: normal normal normal 16px/21px 'Red Hat Display';
+    letter-spacing: 0px;
+    color: #210049;
+    opacity: 1;
+}
+
+.txtPolitic {
+    position: absolute;
+    top: 564px;
+    left: 16px;
+    width: 328px;
+    height: 40px;
+    color: var(--unnamed-color-a2b0b7);
+    text-align: left;
+    font: normal normal normal 14px/21px 'Red Hat Display';
+    letter-spacing: 0px;
+    opacity: 1;
+}
+
+.btnContinue {
+    position: absolute;
+    top: 624px;
+    left: 12px;
+    width: 336px;
+    height: 48px;
+    background: var(--magenta1_-ff2f73) 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    border: transparent;
+    opacity: 1;
+}
+
+.txtBtn {
+    width: 304px;
+    height: 20px;
+    color: var(--blanco_-ffffff);
+    text-align: center;
+    font: normal normal 600 16px/21px 'Red Hat Display';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}

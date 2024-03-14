@@ -1,0 +1,31 @@
+/* Colores */
+:root {
+    --blanco_-ffffff: #FFFFFF;
+    --color-210049: #210049;
+    --magenta1_-ff2f73: #FF2F73;
+    --elipse_-49346A: #49346A;
+    --unnamed-color-a2b0b7: #a2b0b7;
+    --gris2_-6e6e6e: #6e6e6e;
+}
+
+/* Letras */
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url('/src/font/red-hat-display-semibold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Display Blod';
+    src: url('/src/font/RedHatDisplay-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Red Hat Display Medium';
+    src: url('/src/font/RedHatDisplay-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
